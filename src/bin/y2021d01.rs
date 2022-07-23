@@ -18,8 +18,8 @@ fn main() {
     let parsed: Vec<u32> = input.data.iter().map(|s| s.parse().unwrap()).collect();
 
     let increases = part1(&parsed);
-    println!("Part 1 Increases: {increases}");
+    println!("Part 1 Increases: {}", increases);
 
     let increases = part2(&parsed);
-    println!("Part 2 Increases: {increases}");
+    println!("Part 2 Increases: {}", increases);
 }
